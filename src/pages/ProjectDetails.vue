@@ -44,12 +44,19 @@
                 Functionality
               </div>
               <p class="roboto-light paragraph">
-                For members this is
-                <a> <strong class="text-accent">some text</strong></a>
+                For <strong>members</strong> this is a website where you can
+                <strong class="text-accent">learn Socionics</strong> and
+                <a><strong class="text-accent">discover</strong></a> your
+                <a><strong class="text-accent">sociotype</strong></a>
               </p>
               <p class="roboto-light paragraph">
-                For non-members this is
-                <a> <strong class="text-accent">some text</strong></a>
+                For <strong>non-members</strong> this is website that explains
+                the
+                <a>
+                  <strong class="text-accent">fundamental concepts</strong></a
+                >
+                of socionics and provides a base foundation of
+                <strong class="text-accent">understanding</strong>.
               </p>
             </div>
           </div>
@@ -137,18 +144,11 @@
                     Secure login / registration
                   </p>
                 </div>
-                <div>
-                  <p class="roboto-regular-italic">
-                    <strong class="text-accent">Hosting</strong>
-                  </p>
-                  <p>Hosted using Firebase for portfolio viewing</p>
-                </div>
               </div>
             </div>
           </q-card-section>
         </div>
       </q-carousel-slide>
-
       <q-carousel-slide class="column no-wrap flex-center" name="contact">
         <div class="proj-details__card--head">
           <div
@@ -169,64 +169,9 @@
                   Email
                 </div>
                 <div>
-                  <p class="roboto-regular-italic subHead-details">Content</p>
-                </div>
-              </div>
-            </q-card-section>
-            <q-card-section class="col">
-              <div class="display-box">
-                <i
-                  class="bi-file-pdf-fill"
-                  style="font-size: 3rem; padding-bottom: 1rem"
-                ></i>
-                <div class="roboto-regular heading-details u-center-text">
-                  Resume
-                </div>
-                <div>
-                  <p class="roboto-regular-italic subHead-details">Content</p>
-                </div>
-              </div>
-            </q-card-section>
-            <q-card-section class="col">
-              <div class="display-box">
-                <i
-                  class="bi-link-45deg"
-                  style="font-size: 3rem; padding-bottom: 1rem"
-                ></i>
-                <div class="roboto-regular heading-details u-center-text">
-                  Indeed
-                </div>
-                <div>
-                  <p class="roboto-regular-italic subHead-details">Content</p>
-                </div>
-              </div>
-            </q-card-section>
-          </div>
-        </div>
-      </q-carousel-slide>
-
-      <q-carousel-slide class="column no-wrap flex-center" name="socials">
-        <div class="proj-details__card--head">
-          <div
-            class="roboto-bold-italic heading-secondary2 u-center-text text-white umbs"
-          >
-            Socials
-          </div>
-        </div>
-
-        <div class="build-card__build-stack">
-          <div class="row">
-            <q-card-section class="col">
-              <div class="proj-details__card--socials display-box">
-                <i
-                  class="pi pi-linkedin"
-                  style="font-size: 3rem; padding-bottom: 1rem"
-                ></i>
-                <div class="roboto-regular heading-details u-center-text">
-                  LinkedIn
-                </div>
-                <div>
-                  <p class="roboto-regular-italic subHead-details">Subhead 1</p>
+                  <p class="roboto-regular-italic subHead-details-sub">
+                    n.c.vail21@gmail.com
+                  </p>
                 </div>
               </div>
             </q-card-section>
@@ -240,7 +185,9 @@
                   GitHub
                 </div>
                 <div>
-                  <p class="roboto-regular-italic subHead-details">Subhead 3</p>
+                  <p class="roboto-regular-italic subHead-details-sub">
+                    noah-vail
+                  </p>
                 </div>
               </div>
             </q-card-section>
@@ -249,7 +196,6 @@
       </q-carousel-slide>
     </q-carousel>
     <!-- PROFILE STICKY -->
-    <!-- Add v-if for logged in -->
     <q-page-sticky
       class="sticky-profile"
       position="top-right"
