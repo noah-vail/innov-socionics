@@ -8,6 +8,10 @@ node_modules
 /quasar.config.*.temporary.compiled*
 /public/
 
+.firebase
+.firebaserc
+firebase.json
+
 /src/boot
 /src/css/
 /src/assets/
