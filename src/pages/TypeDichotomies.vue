@@ -201,14 +201,7 @@
                   <p>Prefer to work in a team</p>
                 </div>
               </q-card>
-              <p
-                class="paragraph roboto-regular"
-                style="
-                  padding-top: 3rem;
-                  padding-left: 4rem;
-                  padding-right: 1.5rem;
-                "
-              >
+              <p class="paragraph dich-info-block roboto-regular">
                 Augusta likened the difference between extraverted and
                 introverted perception to the difference between bodies and
                 fields in physics. <strong>"Bodies"</strong> are objects with
@@ -1064,7 +1057,9 @@
                       class="highlight-text"
                       style="color: #71095e"
                       >Ni</strong
-                    >) and extroverted sensing (<strong class="highlight-text" style="color: #0d85a0"
+                    >) and extroverted sensing (<strong
+                      class="highlight-text"
+                      style="color: #0d85a0"
                       >Se</strong
                     >)
                   </p>

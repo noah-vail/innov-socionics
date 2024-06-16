@@ -15,7 +15,6 @@
         <q-btn
           class="shadow-2 roboto-bold-italic btn btn--monochrome btn--animated"
           to="/quiz"
-          style="margin-bottom: 2rem; margin-top: 2rem; margin-left: -3rem"
           >Discover Your Mind
         </q-btn>
       </div>
@@ -415,6 +414,7 @@
                 Leading Function
               </li>
               <div
+                style="text-align: left;"
                 class="roboto-light section-info-elements__card--list__item--text"
               >
                 These functions describe the aspects of reality that a person

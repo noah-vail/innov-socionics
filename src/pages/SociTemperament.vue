@@ -6,14 +6,16 @@
       </div>
       <div class="page-header__text-box">
         <h1 class="heading-primary">
-          <span class="heading-primary--main roboto-bold-italic text-white"
+          <span class="heading-primary--main3 roboto-bold-italic text-white"
             >Temperaments</span
           >
         </h1>
       </div>
     </header>
-
-    <q-card-section style="width: 80vw; margin: 0 auto; margin-top: 1.5rem">
+    <q-card-section
+      class="pageTemperament__section"
+      style="margin: 0 auto; margin-top: 1.5rem"
+    >
       <q-carousel
         v-model="slide"
         transition-prev="jump-left"
@@ -50,13 +52,18 @@
               <div>
                 The EP temperament, or flexible-maneuvering temperament, was
                 identified by Viktor Gulenko and includes the four
-                <strong style="color: #0d85a0" class="roboto-bold highlight-text"
+                <strong
+                  style="color: #0d85a0"
+                  class="roboto-bold highlight-text"
                   >Irrational Extroverts</strong
                 >
                 (one in each quadra)
               </div>
               <br />
-              <div class="roboto-regular-italic pages-sub-head--anim3" style="text-align: center">
+              <div
+                class="roboto-regular-italic pages-sub-head--anim3"
+                style="text-align: center"
+              >
                 <strong class="heading-regular roboto-black-italic text-primary"
                   >ILE</strong
                 >,
@@ -141,14 +148,20 @@
                 <div class="heading-tertiarySub roboto-black">EJ</div>
                 <p class="paragraph roboto-light">
                   EPs perceive EJs as active but too
-                  <strong style="color: #0d85a0" class="roboto-bold highlight-text"
+                  <strong
+                    style="color: #0d85a0"
+                    class="roboto-bold highlight-text"
                     >restless</strong
                   >
                   and
-                  <strong style="color: #0d85a0" class="roboto-bold highlight-text"
+                  <strong
+                    style="color: #0d85a0"
+                    class="roboto-bold highlight-text"
                     >nervous</strong
                   >,
-                  <srong style="color: #0d85a0" class="roboto-bold highlight-text"
+                  <srong
+                    style="color: #0d85a0"
+                    class="roboto-bold highlight-text"
                     >slightly annoying</srong
                   >
                   due to a lack of sense of spontaneity
@@ -158,11 +171,15 @@
                 <div class="heading-tertiarySub roboto-black">IP</div>
                 <p class="paragraph roboto-light">
                   EPs perceive IPs as
-                  <strong style="color: #0d85a0" class="roboto-bold highlight-text"
+                  <strong
+                    style="color: #0d85a0"
+                    class="roboto-bold highlight-text"
                     >pleasantly flexible</strong
                   >
                   and
-                  <strong style="color: #0d85a0" class="roboto-bold highlight-text"
+                  <strong
+                    style="color: #0d85a0"
+                    class="roboto-bold highlight-text"
                     >responsive</strong
                   >
                   to their initiatives, sometimes too unpredictable but for that
@@ -174,11 +191,15 @@
               <div class="heading-tertiarySub roboto-black">IJ</div>
               <p class="paragraph roboto-light">
                 EPs perceive IJs as too
-                <strong style="color: #0d85a0" class="roboto-bold highlight-text"
+                <strong
+                  style="color: #0d85a0"
+                  class="roboto-bold highlight-text"
                   >predictable</strong
                 >
                 and
-                <strong style="color: #0d85a0" class="roboto-bold highlight-text"
+                <strong
+                  style="color: #0d85a0"
+                  class="roboto-bold highlight-text"
                   >boring</strong
                 >, too unwilling to do things on the spur of the moment
               </p>
@@ -211,12 +232,17 @@
               <p>
                 The EJ temperament, or linear-assertive temperament, was
                 identified by Viktor Gulenko and includes the four
-                <strong style="color: #a0280d" class="roboto-bold highlight-text"
+                <strong
+                  style="color: #a0280d"
+                  class="roboto-bold highlight-text"
                   >Rational Extroverts</strong
                 >
                 (one in each quadra)
               </p>
-              <div class="roboto-regular-italic pages-sub-head--anim3" style="text-align: center">
+              <div
+                class="roboto-regular-italic pages-sub-head--anim3"
+                style="text-align: center"
+              >
                 <strong
                   class="heading-regular roboto-black-italic text-secondary"
                   >ESE</strong
@@ -301,11 +327,15 @@
                 <div class="heading-tertiarySub roboto-black">EP</div>
                 <p class="paragraph roboto-light">
                   EJs see EPs as
-                  <strong style="color: #a0280d" class="roboto-bold highlight-text"
+                  <strong
+                    style="color: #a0280d"
+                    class="roboto-bold highlight-text"
                     >unpredictable</strong
                   >
                   and moody, and therefore a bit
-                  <strong style="color: #a0280d" class="roboto-bold highlight-text"
+                  <strong
+                    style="color: #a0280d"
+                    class="roboto-bold highlight-text"
                     >irritating</strong
                   >, but also as extremely energetic once they do focus on doing
                   something, as well as the source of initiatives that may be
@@ -316,13 +346,19 @@
                 <div class="heading-tertiarySub roboto-black">IP</div>
                 <p class="paragraph roboto-light">
                   EJs see IP as
-                  <strong style="color: #a0280d" class="roboto-bold highlight-text"
+                  <strong
+                    style="color: #a0280d"
+                    class="roboto-bold highlight-text"
                     >unpredictable</strong
                   >,
-                  <strong style="color: #a0280d" class="roboto-bold highlight-text"
+                  <strong
+                    style="color: #a0280d"
+                    class="roboto-bold highlight-text"
                     >moody</strong
                   >, as well as too passive and
-                  <strong style="color: #a0280d" class="roboto-bold highlight-text"
+                  <strong
+                    style="color: #a0280d"
+                    class="roboto-bold highlight-text"
                     >unreliable</strong
                   >, especially if they are required to show initiative or even
                   reciprocity
@@ -333,12 +369,19 @@
               <div class="heading-tertiarySub roboto-black">IJ</div>
               <p class="paragraph roboto-light">
                 EJs see IJs as
-                <strong style="color: #a0280d" class="roboto-bold highlight-text">solid</strong
+                <strong
+                  style="color: #a0280d"
+                  class="roboto-bold highlight-text"
+                  >solid</strong
                 >,
-                <strong style="color: #a0280d" class="roboto-bold highlight-text"
+                <strong
+                  style="color: #a0280d"
+                  class="roboto-bold highlight-text"
                   >reliable</strong
                 >, and reassuringly
-                <strong style="color: #a0280d" class="roboto-bold highlight-text"
+                <strong
+                  style="color: #a0280d"
+                  class="roboto-bold highlight-text"
                   >predictable</strong
                 >, and usually not inclined towards being the first to take the
                 initiative in taking action
@@ -370,7 +413,9 @@
               <p>
                 The IP temperament, or receptive-adaptive temperament, was
                 identified by Viktor Gulenko and includes the four
-                <strong style="color: #710da0" class="roboto-bold highlight-text"
+                <strong
+                  style="color: #710da0"
+                  class="roboto-bold highlight-text"
                   >Irrational Introverts</strong
                 >
                 (one in each quadra)
@@ -451,11 +496,15 @@
                 <div class="heading-tertiarySub roboto-black">EP</div>
                 <p class="paragraph roboto-light">
                   IPs see EPs as
-                  <strong style="color: #710da0" class="roboto-bold highlight-text"
+                  <strong
+                    style="color: #710da0"
+                    class="roboto-bold highlight-text"
                     >pleasantly energetic</strong
                   >
                   in an
-                  <strong style="color: #710da0" class="roboto-bold highlight-text"
+                  <strong
+                    style="color: #710da0"
+                    class="roboto-bold highlight-text"
                     >unpredictable</strong
                   >
                   and therefore not boring way, also able to take for granted
@@ -466,7 +515,9 @@
                 <div class="heading-tertiarySub roboto-black">EJ</div>
                 <p class="paragraph roboto-light">
                   IPs see EJs as
-                  <strong style="color: #710da0" class="roboto-bold highlight-text"
+                  <strong
+                    style="color: #710da0"
+                    class="roboto-bold highlight-text"
                     >annoyingly pushy</strong
                   >
                   and insistent in their initiatives; they may respect their
@@ -479,7 +530,9 @@
               <div class="heading-tertiarySub roboto-black">IJ</div>
               <p class="paragraph roboto-light">
                 IPs see IJs as
-                <strong style="color: #710da0" class="roboto-bold highlight-text"
+                <strong
+                  style="color: #710da0"
+                  class="roboto-bold highlight-text"
                   >boring</strong
                 >
                 and too concerned with stability
@@ -515,7 +568,9 @@
               <p>
                 The IJ temperament, or balanced-stable temperament, was
                 identified by Viktor Gulenko and includes the four
-                <strong style="color: #3ca00d" class="roboto-bold highlight-text"
+                <strong
+                  style="color: #3ca00d"
+                  class="roboto-bold highlight-text"
                   >Rational Introverts</strong
                 >
                 (one in each quadra)
@@ -606,10 +661,14 @@
                 <div class="heading-tertiarySub roboto-black">EP</div>
                 <p class="paragraph roboto-light">
                   IJs see EPs as
-                  <strong style="color: #3ca00d" class="roboto-bold highlight-text"
+                  <strong
+                    style="color: #3ca00d"
+                    class="roboto-bold highlight-text"
                     >unreliable</strong
                   >, and too
-                  <strong style="color: #3ca00d" class="roboto-bold highlight-text"
+                  <strong
+                    style="color: #3ca00d"
+                    class="roboto-bold highlight-text"
                     >unpredictable</strong
                   >
                   in their impulses and initiatives
@@ -619,11 +678,15 @@
                 <div class="heading-tertiarySub roboto-black">EJ</div>
                 <p class="paragraph roboto-light">
                   IJs see EJs as
-                  <strong style="color: #3ca00d" class="roboto-bold highlight-text"
+                  <strong
+                    style="color: #3ca00d"
+                    class="roboto-bold highlight-text"
                     >pleasantly energetic</strong
                   >
                   and
-                  <strong style="color: #3ca00d" class="roboto-bold highlight-text"
+                  <strong
+                    style="color: #3ca00d"
+                    class="roboto-bold highlight-text"
                     >willing</strong
                   >
                   to take the initiative and get things going in a balanced,
@@ -635,11 +698,15 @@
               <div class="heading-tertiarySub roboto-black">IP</div>
               <p class="paragraph roboto-light">
                 IJs see IPs as
-                <strong style="color: #3ca00d" class="roboto-bold highlight-text"
+                <strong
+                  style="color: #3ca00d"
+                  class="roboto-bold highlight-text"
                   >unreliable</strong
                 >
                 and
-                <strong style="color: #3ca00d" class="roboto-bold highlight-text"
+                <strong
+                  style="color: #3ca00d"
+                  class="roboto-bold highlight-text"
                   >unwilling</strong
                 >
                 to take any initiative, with too low levels of energy

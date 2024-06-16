@@ -17,7 +17,7 @@
     </header>
     <q-card-section
       class="pageRomance__styles__section"
-      style="width: 80vw; margin: 0 auto; margin-top: 1.5rem"
+      style="margin: 0 auto; margin-top: 1.5rem"
     >
       <q-carousel
         v-model="slide"

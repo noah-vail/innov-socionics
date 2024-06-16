@@ -432,7 +432,7 @@
               Humanitarians
             </div>
             <i
-              class="fa-solid fa-people-group pages-sub-head--anim4 text-info pageClub__clubs--expansion__icon"
+              class="fa-solid fa-people-group pages-sub-head--anim4 text-info pageClub__clubs--expansion__icon2"
             ></i>
             <p class="paragraph roboto-light">
               The humanitarians club consists of the following

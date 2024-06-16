@@ -14,7 +14,7 @@
       <q-carousel-slide class="column no-wrap flex-center" name="outline">
         <q-card-section>
           <div class="proj-details__card--heading">
-            <div class="roboto-bold-italic heading-secondary2 text-white umbs">
+            <div class="roboto-bold-italic heading-secondary2 text-white umbt">
               Project Details
             </div>
           </div>
@@ -64,7 +64,7 @@
       </q-carousel-slide>
 
       <q-carousel-slide class="column no-wrap flex-center" name="build">
-        <div class="proj-details__card--head">
+        <div class="proj-details__card--heading">
           <div
             class="roboto-bold-italic heading-secondary2 u-center-text text-white umbt"
           >
@@ -72,7 +72,7 @@
           </div>
         </div>
         <div class="row">
-          <q-card-section class="col">
+          <q-card-section>
             <div class="proj-details__card--build display-box">
               <div>
                 <i
@@ -109,7 +109,7 @@
               </div>
             </div>
           </q-card-section>
-          <q-card-section class="col">
+          <q-card-section>
             <div class="proj-details__card--build display-box">
               <div>
                 <i
@@ -159,8 +159,8 @@
         </div>
         <div class="build-card__build-stack">
           <div class="row">
-            <q-card-section class="col">
-              <div class="display-box">
+            <q-card-section class="column">
+              <div class="display-box email">
                 <i
                   class="bi-envelope-exclamation-fill"
                   style="font-size: 3rem; padding-bottom: 1rem"

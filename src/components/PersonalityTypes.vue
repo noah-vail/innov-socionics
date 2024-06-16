@@ -54,16 +54,8 @@
                   transition-prev="fade"
                   animated
                   navigation
-                  class="shadow-2 overflow-hidden"
+                  class="shadow-2 overflow-hidden ptypes__card--container__infoCard--body__sociotypes--car"
                   control-color="primary"
-                  style="
-                    height: 850px;
-                    margin-left: 6rem;
-                    margin-right: 6rem;
-                    margin-bottom: 2rem;
-                    background-color: #f8f7ff;
-                    border-radius: 8px;
-                  "
                 >
                   <q-carousel-slide class="column no-wrap" name="Alpha">
                     <q-card-section>
