@@ -1,0 +1,83 @@
+.header {
+  height: 130vh;
+  margin-left: 2rem;
+  margin-right: 2rem;
+
+  background-image: linear-gradient(
+    to left bottom,
+    rgba($monochrome, 1),
+    rgba($analogous-02, 1)
+  );
+
+  background-size: cover;
+  background-position: top;
+  position: relative;
+
+  &__logo-box {
+    position: absolute;
+    top: 2.5rem;
+    left: 3rem;
+  }
+
+  &__logo {
+    height: 3.5rem;
+  }
+
+  &__text-box {
+    position: absolute;
+    top: 40%;
+    left: 52.5%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+}
+
+.page-header {
+  height: 52.5vh;
+  margin-left: 1rem;
+  margin-right: 1rem;
+
+  background-image: linear-gradient(
+    to right bottom,
+    rgba($secondary, 0.8),
+    rgba($accent, 0.8)
+  );
+
+  background-size: cover;
+  background-position: top;
+  position: relative;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+
+  &__logo-box {
+    position: absolute;
+    top: 4rem;
+    left: 4rem;
+  }
+
+  &__logo {
+    height: 3.5rem;
+  }
+
+  &__text-box {
+    position: absolute;
+    top: 58%;
+    left: 51.5%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+}
+
+/* MOBILE SCREEN MEDIA QUERY */
+@media screen and (max-width: 415px) {
+  .header {
+    margin-left: 0.2rem;
+    margin-right: 0.2rem;
+    height: 100vh;
+
+    &__logo-box {
+      top: 2rem;
+      left: 2rem;
+    }
+  }
+}

@@ -13,11 +13,9 @@ node_modules
 firebase.json
 
 /src/boot
-/src/css/
-/src/assets/
+
 /src/pages/TypeTemplate.vue
 /src/components/PossibleComps.vue
-/src/firebase/
 firebase-debug.log
 package-lock.json
 # Cordova related directories and files

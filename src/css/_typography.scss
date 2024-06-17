@@ -1,0 +1,311 @@
+.heading-primary {
+  color: black;
+  text-transform: uppercase;
+  margin-bottom: 4.5rem;
+
+  &--main {
+    display: block;
+    font-size: $main-header;
+    font-weight: 700;
+    letter-spacing: 2rem;
+    padding: 1rem;
+
+    animation-name: moveInLeft;
+    animation-duration: 1s;
+    animation-timing-function: ease-out;
+  }
+  &--main3 {
+    display: block;
+    font-size: $main-header;
+    font-weight: 700;
+    letter-spacing: 2rem;
+    padding: 1rem;
+
+    animation-name: moveInLeft;
+    animation-duration: 1s;
+    animation-timing-function: ease-out;
+  }
+
+  &--main2 {
+    display: block;
+    font-size: $main-header;
+    font-weight: 700;
+    letter-spacing: 1rem;
+    padding: 1rem;
+
+    animation-name: moveInLeft;
+    animation-duration: 1s;
+    animation-timing-function: ease-out;
+  }
+
+  &--sub {
+    display: block;
+    font-size: $main-header-sub;
+    font-weight: 700;
+    letter-spacing: 1.75rem;
+    animation: moveInRight 1s ease-out;
+  }
+}
+
+.heading-secondary2 {
+  font-size: $default-font-size-primary-heading;
+  text-transform: uppercase;
+  font-weight: 700;
+  display: inline-block;
+  letter-spacing: 0.2rem;
+  transition: all 0.2s;
+}
+
+.heading-secondary-sub {
+  display: inline-block;
+
+  font-size: $heading-tertiary;
+  font-weight: 700;
+  text-transform: uppercase;
+  padding-bottom: 0.5rem;
+}
+
+.heading-tertiary {
+  color: $primary;
+  //display: inline-block;
+
+  font-size: $heading-tertiary;
+  font-weight: 700;
+  text-transform: uppercase;
+  padding-bottom: 0.5rem;
+
+  &--no-color {
+    display: inline-block;
+
+    font-size: 3.2rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding-bottom: 0.5rem;
+  }
+}
+
+.heading-tertiary-sub {
+  display: inline-block;
+
+  font-size: 2rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  padding-bottom: 0.5rem;
+}
+
+.heading-tertiary-sub-color {
+  color: $primary;
+  display: inline-block;
+
+  font-size: 2rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  padding-bottom: 0.5rem;
+}
+
+.heading-pages {
+  color: black;
+  text-transform: uppercase;
+
+  display: block;
+  font-size: $heading-tertiary;
+  font-weight: 700;
+
+  letter-spacing: 0.5rem;
+
+  animation-name: moveInRight;
+  animation-duration: 1s;
+  animation-timing-function: ease-out;
+}
+
+.heading-details {
+  color: black;
+  text-transform: uppercase;
+
+  display: block;
+  font-size: $heading-tertiary;
+  font-weight: 700;
+
+  letter-spacing: 0.5rem;
+
+  animation-name: moveInRight;
+  animation-duration: 1s;
+  animation-timing-function: ease-out;
+}
+
+.subHead-details {
+  font-size: $heading-tertiary-sub;
+  text-transform: uppercase;
+  font-weight: 700;
+  display: inline-block;
+  background-color: $primary;
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  letter-spacing: 0.2rem;
+  transition: all 0.2s;
+}
+
+.subHead-details-sub {
+  font-size: 1.95rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  display: inline-block;
+  background-color: $primary;
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  letter-spacing: 0.2rem;
+  transition: all 0.2s;
+}
+
+.heading-dialogs {
+  color: black;
+  text-transform: uppercase;
+
+  display: block;
+  font-size: $heading-tertiary;
+  font-weight: 700;
+
+  letter-spacing: 0.5rem;
+
+  animation-name: moveInRight;
+  animation-duration: 1s;
+  animation-timing-function: ease-out;
+}
+
+.subHead-dialogs {
+  font-size: $heading-tertiary-sub;
+  text-transform: uppercase;
+  font-weight: 700;
+  display: inline-block;
+  background-color: $accent;
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  letter-spacing: 0.2rem;
+  transition: all 0.2s;
+}
+
+.pages-sub-head {
+  font-size: $default-page-sub-head;
+  text-transform: uppercase;
+  font-weight: 700;
+  display: inline-block;
+  letter-spacing: 0.2rem;
+  //transition: all 0.2s;
+
+  &--anim {
+    animation-name: moveInRight;
+    animation-duration: 1s;
+    animation-timing-function: ease-out;
+  }
+
+  &--anim2 {
+    animation-name: moveInLeft;
+    animation-duration: 1s;
+    animation-timing-function: ease-out;
+  }
+
+  &--anim3 {
+    animation-name: moveInBottom;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+  }
+
+  &--anim4 {
+    animation-name: moveInTop;
+    animation-duration: 1s;
+    animation-timing-function: ease-out;
+  }
+}
+
+/* MOBILE SCREEN MEDIA QUERY */
+@media screen and (max-width: 415px) {
+  .heading-primary {
+    &--main {
+      font-size: 2.5rem;
+      letter-spacing: 1rem;
+      margin-right: 0.2rem;
+    }
+    &--main3 {
+      font-size: 2rem;
+      letter-spacing: 0.5rem;
+      margin-right: 0.2rem;
+    }
+    &--sub {
+      font-size: 2rem;
+      letter-spacing: 1rem;
+    }
+  }
+
+  .heading-secondary2 {
+    font-size: 3rem;
+  }
+
+  .heading-secondary-sub {
+    font-size: 2rem;
+  }
+
+  .heading-tertiary {
+    font-size: 2rem;
+  }
+
+  .pages-sub-head {
+    font-size: 2rem;
+  }
+}
+
+.heading-regular {
+  font-size: $default-font-size-tertiary-heading;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 0.2rem;
+  transition: all 0.2s;
+
+  &--sub {
+    font-size: $default-font-size-tertiary-sub-heading;
+    text-transform: uppercase;
+    font-weight: 700;
+    display: inline-block;
+    letter-spacing: 0.1rem;
+    transition: all 0.2s;
+  }
+
+  &--tiny {
+    font-size: $default-font-size-small;
+    text-transform: uppercase;
+    font-weight: 700;
+    display: inline-block;
+    letter-spacing: 0.2rem;
+    transition: all 0.2s;
+  }
+
+  &--tiny-no-space {
+    font-size: $default-font-size-tiny;
+
+    font-weight: 700;
+    display: inline-block;
+    letter-spacing: 0.1rem;
+    transition: all 0.2s;
+  }
+}
+
+.heading-tertiarySub {
+  font-size: $default-font-size;
+  font-weight: 500;
+}
+
+.paragraph {
+  font-size: $default-font-size;
+
+  &:not(:last-child) {
+    margin-bottom: 1.3rem;
+  }
+}
+
+.highlight-text {
+  font-size: 1.3rem;
+  text-transform: capitalize;
+  letter-spacing: 0.05rem;
+}

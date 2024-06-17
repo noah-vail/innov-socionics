@@ -1,0 +1,33 @@
+.form {
+  &__group {
+    align-items: center;
+  }
+
+  &__input {
+    margin: 0 auto;
+    font-size: 1.2rem;
+    font-family: inherit;
+    color: inherit;
+
+    border-radius: 2px;
+    width: 60%;
+    display: block;
+    transition: all 0.3s;
+  }
+
+  &__label {
+    font-size: 1.3rem;
+    font-weight: 700;
+    margin-left: 14.5rem;
+    padding-bottom: 0.6rem;
+    display: block;
+    transition: all 0.3s;
+  }
+
+  &__radio-group {
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+}

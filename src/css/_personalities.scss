@@ -1,0 +1,312 @@
+.ptypes {
+  text-align: center;
+
+  &__card {
+    border-radius: 0px;
+    background-image: linear-gradient(
+      to right bottom,
+      rgba($primary, 0.7),
+      rgba($analogous-02, 0.7)
+    );
+
+    &--container {
+      padding-left: 0.5rem;
+      padding-right: 0.5rem;
+
+      &__heading {
+        padding-top: 1rem;
+      }
+
+      &__infoCard {
+        border-radius: 15px;
+        margin-left: 4rem;
+        margin-right: 4rem;
+        padding-bottom: 1rem;
+
+        &--list {
+          list-style: none;
+          font-size: 0.95rem;
+        }
+
+        &--body {
+          &__heading {
+            padding-top: 2rem;
+          }
+
+          &__fundamentals {
+            border-radius: 10px;
+            padding-top: 0.5rem;
+            padding-bottom: 0.5rem;
+            margin-left: 5rem;
+            margin-right: 5rem;
+          }
+
+          &__sociotypes {
+            padding-top: 1rem;
+            padding-bottom: 1.5rem;
+
+            &--car {
+              height: 850px;
+              margin-left: 6rem;
+              margin-right: 6rem;
+              margin-bottom: 2rem;
+              background-color: #f8f7ff;
+              border-radius: 8px;
+            }
+
+            &--alpha {
+              border-radius: 10px;
+              margin-left: 8rem;
+              margin-right: 8rem;
+              margin-bottom: 2rem;
+
+              padding-bottom: 1rem;
+              padding-left: 2.5rem;
+              padding-right: 1.5rem;
+
+              &__header {
+                &--icon {
+                  font-size: 2.5rem;
+                  color: $secondary;
+                }
+              }
+
+              &__list {
+                list-style: none;
+                text-align: center;
+
+                &--item {
+                  padding-left: 1rem;
+                  padding-right: 2.5rem;
+                }
+              }
+            }
+
+            &--beta {
+              background-color: $ghost-white;
+              border-radius: 10px;
+              margin-left: 8rem;
+              margin-right: 8rem;
+              margin-bottom: 2rem;
+
+              padding-top: 0.5rem;
+              padding-bottom: 1rem;
+              padding-left: 2.5rem;
+              padding-right: 2rem;
+
+              &__list {
+                list-style: none;
+                font-size: 0.9rem;
+
+                &--item {
+                  padding-left: 1rem;
+                  padding-right: 2.5rem;
+                }
+              }
+            }
+
+            &--gamma {
+              //background-color: $lavender-blush;
+              border-radius: 10px;
+              margin-left: 8rem;
+              margin-right: 8rem;
+              margin-bottom: 2rem;
+
+              //padding-top: .5rem;
+              padding-bottom: 1rem;
+              padding-left: 2.5rem;
+              padding-right: 2rem;
+
+              &__list {
+                list-style: none;
+                font-size: 0.9rem;
+
+                &--item {
+                  padding-left: 1rem;
+                  padding-right: 2.5rem;
+                }
+              }
+            }
+
+            &--delta {
+              text-align: center;
+              //background-color: $lavender-blush;
+              border-radius: 10px;
+              margin-left: 8rem;
+              margin-right: 8rem;
+              margin-bottom: 1rem;
+
+              padding-top: 0.5rem;
+              padding-bottom: 1rem;
+              padding-left: 2.5rem;
+              padding-right: 1.5rem;
+
+              &__list {
+                list-style: none;
+                font-size: 1rem;
+
+                &--item {
+                  padding-left: 1rem;
+                  padding-right: 2.5rem;
+                }
+              }
+            }
+          }
+        }
+      }
+
+      &__types {
+        padding-left: 3rem;
+        padding-right: 3rem;
+        padding-top: 2rem;
+        padding-bottom: 3rem;
+
+        &--icon {
+          margin-top: 0.5rem;
+          margin-bottom: 1rem;
+        }
+
+        &--carousel {
+          margin: 0 auto;
+          background-color: $ghost-white;
+          border-radius: 15px;
+          max-width: 1100px;
+          //text-align: center;
+        }
+
+        &--items {
+          padding-left: 1rem;
+          padding-right: 1rem;
+          padding-bottom: 1rem;
+
+          &__type {
+            text-align: center;
+            font-size: $default-font-size;
+          }
+
+          &__btn-container {
+            &--btn {
+              color: $color-white;
+              background-color: $triadic-02;
+              font-size: 1rem;
+              position: absolute;
+              top: 2.5rem;
+              right: 2rem;
+
+              padding: 1rem 2rem;
+              border-radius: 10px;
+            }
+
+            &--btn-round {
+              &,
+              &:link,
+              &:visited {
+                position: absolute;
+                top: 2.5rem;
+                right: 2rem;
+                color: $triadic-02;
+                font-size: 1.1rem;
+                letter-spacing: 0.05rem;
+                transition: all 0.2s;
+
+                &:active,
+                &:focus {
+                  outline: none;
+                  transform: translateX(-0.5rem);
+                  box-shadow: 0 0.5rem 1rem rgba($triadic-02, 0.15);
+
+                  &::after {
+                    transform: scaleX(1.4rem) scaleY(1.6rem);
+                    opacity: 0;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  } // end card
+
+  &__dialog {
+    background-color: $primary;
+    max-width: 70vw !important;
+
+    &--bar {
+      padding-top: 1.2rem;
+      padding-bottom: 1.2rem;
+      &__btn {
+        font-size: 1.1rem;
+        color: $persion-red;
+      }
+    }
+
+    &--heading {
+      text-align: center;
+      padding-top: 2rem;
+      padding-bottom: 2rem;
+    }
+
+    &--body {
+      padding-left: 2.5rem;
+      padding-right: 2.5rem;
+      margin-bottom: 2.5rem;
+
+      &__sub-head {
+        font-size: $default-font-size-tertiary-heading;
+        padding-bottom: 1rem;
+
+        &--after-first {
+          padding-top: 1rem;
+          padding-bottom: 1rem;
+        }
+      }
+
+      &__uList {
+        list-style: none;
+        font-size: $default-font-size;
+        background-color: $ghost-white;
+        border-radius: 10px;
+
+        padding: 1rem 1.5rem;
+
+        &--item {
+          padding-top: 0.5rem;
+          padding-bottom: 0.5rem;
+          padding-left: 1rem;
+        }
+      }
+    }
+  } // end dialog
+} // end ptypes
+
+/* MOBILE SCREEN MEDIA QUERY */
+@media screen and (max-width: 415px) {
+  .ptypes {
+    &__card {
+      &--container {
+        &__infoCard {
+          margin-left: 0.5rem;
+          margin-right: 0.5rem;
+
+          &--body {
+            &__fundamentals {
+              margin-left: 1rem;
+              margin-right: 1rem;
+            }
+
+            &__sociotypes {
+              &--car {
+                margin-left: 1rem;
+                margin-right: 1rem;
+                margin-bottom: 2rem;
+                background-color: #f8f7ff;
+                border-radius: 8px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

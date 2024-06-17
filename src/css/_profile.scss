@@ -1,0 +1,205 @@
+.profile {
+  background-image: linear-gradient(
+    to right bottom,
+    rgba($monochrome, 0.8),
+    rgba($analogous-02, 0.8)
+  );
+
+  padding-right: 10rem;
+  padding-left: 10rem;
+
+  &__card {
+    height: 310vh;
+    max-height: 340vh;
+
+    &--heading {
+      padding-top: 2.5rem;
+      text-align: center;
+    }
+
+    &--photo {
+      height: 55vh;
+
+      margin-top: 1rem;
+      margin-left: 2rem;
+      margin-right: 4rem;
+
+      border-radius: 15px;
+    }
+
+    &--name {
+      border-radius: 15px;
+      max-height: 27vh;
+      margin-top: 1rem;
+      margin-left: 4rem;
+      margin-right: 2rem;
+
+      padding-top: 1rem;
+
+      &__data {
+        text-align: center;
+        margin: 0 auto;
+      }
+    }
+
+    &--bio {
+      border-radius: 15px;
+      margin-top: 3rem;
+      margin-left: 4rem;
+      margin-right: 4rem;
+      padding-top: 1.5rem;
+      padding-bottom: 1.5rem;
+
+      &__data {
+        text-align: center;
+        margin: 0 auto;
+      }
+    }
+
+    &--type {
+      margin: 3rem;
+    }
+
+    &--quizzes {
+      border-radius: 20px;
+      margin-left: 3rem;
+      margin-right: 3rem;
+      margin-top: 1.5rem;
+
+      &__quiz {
+        margin-bottom: 2rem;
+        border-radius: 10px;
+
+        &--tab {
+          font-size: 1.2rem;
+
+          &__heading {
+            padding-top: 1.5rem;
+            padding-bottom: 1rem;
+            font-size: $heading-tertiary-sub;
+          }
+
+          &__heading2 {
+            margin-top: 2rem;
+            border-top: $primary;
+            border-top-style: dashed;
+            padding-top: 2rem;
+            padding-bottom: 1rem;
+            font-size: $heading-tertiary-sub;
+          }
+
+          &__sub-head {
+            padding-top: 1rem;
+            padding-bottom: 0.5rem;
+            font-size: 1.2rem;
+          }
+
+          &__col {
+            margin: 0 auto;
+
+            &--info {
+              margin: 0 auto;
+              padding-left: 3.5rem;
+              padding-top: 1rem;
+            }
+          }
+
+          &__type {
+            padding-top: 1rem;
+            padding-bottom: 0.2rem;
+
+            &--last {
+              padding-top: 1rem;
+              padding-bottom: 1.5rem;
+            }
+          }
+
+          &__summary {
+            margin: 0 auto;
+            padding-top: 0.5rem;
+            padding-bottom: 1.5rem;
+          }
+        }
+      }
+    }
+  }
+}
+
+.quiz-results {
+  background-image: linear-gradient(
+    to right bottom,
+    rgba($primary, 0.7),
+    rgba($secondary, 0.7)
+  );
+  min-height: 678px;
+
+  &__card {
+    min-height: 678px;
+    margin-left: 10rem;
+    margin-right: 10rem;
+
+    padding-top: 5rem;
+    //padding-bottom: 2rem;
+
+    &--heading {
+      text-align: center;
+    }
+
+    &--quizlist {
+      margin-left: 2rem;
+      margin-right: 2rem;
+      padding-top: 1.5rem;
+      padding-bottom: 1.5rem;
+
+      font-size: $default-font-size-tertiary-heading;
+
+      border-color: $secondary;
+      border-width: 1px;
+      border-style: dashed;
+
+      &--item {
+        padding: 4rem;
+        font-size: $default-font-size;
+      }
+    }
+  }
+
+  &__results {
+    &--bar {
+      padding: 1.5rem;
+      background-color: $accent;
+
+      &__btn {
+        color: #bb4430;
+      }
+    }
+
+    &--heading {
+      font-size: $default-font-size-tertiary-heading;
+      padding-top: 1rem;
+    }
+
+    &--info {
+      font-size: $default-font-size;
+    }
+
+    &--personality {
+      font-size: 1rem;
+      padding: 1rem;
+
+      &__type {
+        text-align: center;
+        padding: 1rem;
+      }
+
+      &__details {
+        font-size: $default-font-size;
+      }
+
+      &__description {
+        font-size: $default-font-size;
+        padding: 40px;
+      }
+    }
+  }
+}

@@ -1,0 +1,537 @@
+/* START HOME PAGE */
+.section-socionics {
+  background-color: $color-grey-light;
+  padding: 15rem 16rem;
+  margin: $default-page-margin;
+  margin-top: -6rem;
+
+  transform: skewY(5deg);
+
+  & > * {
+    // skew back the images
+    transform: skewY(-5deg);
+  }
+
+  &__para {
+    text-align: left;
+    padding-left: 1.5rem;
+  }
+}
+
+/* MODEL */
+.section-model {
+  background-color: $color-grey-light;
+  padding: 15rem 14rem;
+  margin: $default-page-margin;
+  margin-top: -6rem;
+
+  transform: skewY(5deg);
+
+  & > * {
+    // skew back the images
+    transform: skewY(-5deg);
+  }
+
+  &__para {
+    text-align: left;
+    padding-left: 1.8rem;
+  }
+
+  &__card {
+    background-color: $ghost-white;
+    padding-bottom: $default-card-padding-b;
+    border-radius: $default-card-border-radius;
+    margin-bottom: $default-card-margin-bottom;
+    margin-top: 2.5rem;
+    padding-left: 7rem;
+    padding-right: 5rem;
+
+    &--heading {
+      padding-top: 1.2rem;
+    }
+
+    &--list {
+      list-style: none;
+      font-size: $default-font-size;
+      text-align: left;
+
+      &__item {
+        padding-top: 0.8rem;
+
+        &--numbered {
+          padding-top: 2.4rem;
+        }
+
+        &--last {
+          padding-top: 1rem;
+          padding-bottom: 1.4rem;
+        }
+
+        &--text {
+          padding-top: 0.5rem;
+          padding-left: 2rem;
+          padding-right: 2rem;
+        }
+      }
+    }
+  }
+}
+
+/* INFO ELEMENTS */
+.section-info-elements {
+  position: relative;
+  padding: 16rem 14rem;
+  margin: $default-page-margin;
+
+  background-image: linear-gradient(
+    to right bottom,
+    rgba($monochrome, 0.6),
+    rgba($analogous-02, 0.6)
+  );
+
+  transform: skewY(5deg);
+
+  & > * {
+    // skew back the images
+    transform: skewY(-5deg);
+  }
+
+  &__card {
+    background-color: $ghost-white;
+    padding-bottom: $default-card-padding-b;
+    border-radius: $default-card-border-radius;
+    margin-bottom: $default-card-margin-bottom;
+    padding-left: 7rem;
+    padding-right: 5rem;
+
+    &--heading {
+      padding-top: 2rem;
+    }
+
+    &--heading-list {
+      padding-top: 2rem;
+      padding-bottom: 1rem;
+    }
+
+    &--list {
+      list-style: none;
+      font-size: $default-font-size;
+      text-align: left;
+
+      &__item {
+        font-size: $default-font-size;
+        &--numbered {
+          text-align: left;
+          padding-top: 1rem;
+          padding-bottom: 0.5rem;
+          margin-left: -1.5rem;
+        }
+
+        &--last {
+          padding-top: 1rem;
+          padding-bottom: 0.5rem;
+          margin-left: -1.5rem;
+        }
+
+        &--text {
+          padding-top: 0.5rem;
+          padding-left: 2rem;
+        }
+      }
+    }
+  }
+}
+
+/* QUADRA */
+.section-quadra {
+  padding: 15rem 14rem;
+  background-image: linear-gradient(
+    to left bottom,
+    rgba($monochrome, 0.5),
+    rgba($analogous-02, 0.5)
+  );
+  margin: 2rem;
+  background-size: cover;
+
+  //skewed design
+  transform: skewY(5deg);
+
+  & > * {
+    // skew back the images
+    transform: skewY(-5deg);
+  }
+
+  &__para {
+    text-align: left;
+    padding-left: 1.5rem;
+  }
+
+  &__card {
+    background-color: $ghost-white;
+    padding-bottom: $default-card-padding-b;
+    border-radius: $default-card-border-radius;
+
+    margin-top: $default-card-margin-top;
+    margin-bottom: $default-card-margin-bottom;
+
+    &--heading {
+      padding-top: 2rem;
+      padding-bottom: 2rem;
+    }
+
+    &--list {
+      list-style: none;
+      font-size: $default-font-size;
+      padding-top: 0.5rem;
+      &__item {
+        padding-top: 1rem;
+
+        &--first {
+          padding-top: 2rem;
+        }
+
+        &--last {
+          padding-top: 1rem;
+          padding-bottom: 1.4rem;
+        }
+      }
+    }
+  }
+}
+
+.section-intertype {
+  padding: 15rem 15rem;
+
+  &__card1 {
+    background-color: $ghost-white;
+
+    margin-top: $default-card-margin-top;
+    margin-bottom: $default-card-margin-bottom;
+
+    padding-bottom: $default-card-padding-b;
+    padding-top: $default-card-padding-t;
+
+    border-radius: $default-card-border-radius;
+  }
+  &__card2 {
+    background-color: $ghost-white;
+
+    margin-top: 1rem;
+    padding-bottom: $default-card-padding-b;
+    padding-top: $default-card-padding-t;
+
+    border-radius: $default-card-border-radius;
+
+    &--list {
+      list-style: none;
+      padding-left: 7.5rem;
+      padding-right: 5.5rem;
+      text-align: left;
+
+      &__itemBox {
+        &--item {
+          font-size: 1.3rem;
+          padding-top: 0.5rem;
+          padding-bottom: 0.5rem;
+          text-align: left;
+        }
+      }
+    }
+  }
+}
+
+.section-dichotomies {
+  padding-top: 17rem;
+  padding-left: 14rem;
+  padding-right: 14rem;
+  padding-bottom: 5rem;
+
+  margin: $default-page-margin;
+
+  &__para {
+    text-align: left;
+    padding-left: 1.2rem;
+  }
+
+  &__card {
+    background-color: $ghost-white;
+    padding-bottom: $default-card-padding-b;
+    border-radius: $default-card-border-radius;
+    margin-bottom: $default-card-margin-bottom;
+    padding-left: 8.5rem;
+    padding-right: 8rem;
+
+    &--heading {
+      font-size: $default-font-size;
+      padding-top: 2.5rem;
+      padding-bottom: 1rem;
+    }
+
+    &--list {
+      list-style: none;
+      font-size: $default-font-size;
+      text-align: center;
+
+      &__item {
+        padding-top: 1rem;
+        padding-bottom: 0.5rem;
+
+        &--numbered {
+          padding-top: 2.5rem;
+        }
+
+        &--last {
+          padding-top: 1rem;
+          padding-bottom: 0.5rem;
+        }
+
+        &--text {
+          padding-top: 1rem;
+          padding-bottom: 1rem;
+          //padding-left: 2rem;
+        }
+      }
+    }
+  }
+}
+
+/* MOBILE SCREEN MEDIA QUERY */
+@media screen and (max-width: 415px) {
+  .section-socionics {
+    margin-left: 0.2rem;
+    margin-right: 0.2rem;
+    padding: 5rem 2rem;
+  }
+
+  .section-model {
+    margin-left: 0.2rem;
+    margin-right: 0.2rem;
+    padding: 5rem 2rem;
+
+    &__card {
+      padding-left: 1.5rem;
+      padding-right: 1.5rem;
+
+      &--list {
+        text-align: center;
+
+        &__item {
+          &--text {
+            text-align: left;
+          }
+        }
+      }
+    }
+  }
+
+  .section-info-elements {
+    margin-left: 0.2rem;
+    margin-right: 0.2rem;
+    padding: 5rem 2rem;
+
+    &__card {
+      padding-left: 1.5rem;
+      padding-right: 1.5rem;
+    }
+  }
+
+  .section-quadra {
+    margin-left: 0.2rem;
+    margin-right: 0.2rem;
+    padding: 5rem 2rem;
+  }
+
+  .section-dichotomies {
+    margin-left: 0.2rem;
+    margin-right: 0.2rem;
+    padding: 5rem 2rem;
+  }
+
+  .section-intertype {
+    &__card2 {
+      &--list {
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+      }
+    }
+  }
+}
+/* END HOME PAGE */
+
+.section-model-home {
+  padding: 16rem 15rem;
+  background-image: linear-gradient(
+    to right bottom,
+    rgba($primary, 0.6),
+    rgba($secondary, 0.6)
+  );
+  margin: 2rem;
+  background-size: cover;
+
+  transform: skewY(5deg);
+
+  & > * {
+    // skew back the images
+    transform: skewY(-5deg);
+  }
+
+  &__card {
+    //padding-top: $default-card-padding-t;
+    padding-bottom: $default-card-padding-b;
+    border-radius: $default-card-border-radius;
+    margin-bottom: $default-card-margin-bottom;
+
+    padding-left: 8.5rem;
+    padding-right: 8rem;
+
+    &--heading {
+      //padding-top: 2rem;
+      padding-bottom: 1.5rem;
+    }
+
+    &--heading-list {
+      padding-top: 2rem;
+      padding-bottom: 0.5rem;
+    }
+
+    &--list {
+      list-style: none;
+      font-size: $default-font-size;
+      text-align: left;
+
+      &__item {
+        padding-top: 1rem;
+        padding-bottom: 0.5rem;
+
+        &--numbered {
+          padding-top: 2.5rem;
+        }
+
+        &--last {
+          padding-top: 1rem;
+          padding-bottom: 0.5rem;
+        }
+
+        &--text {
+          padding-top: 0.5rem;
+          padding-bottom: 0.5rem;
+          padding-left: 2rem;
+        }
+      }
+    }
+  }
+}
+
+.section-club {
+  background-color: $color-grey-light;
+  padding: 17rem 15rem;
+  margin-top: -12vh;
+  margin: $default-page-margin;
+  //skewed design
+  transform: skewY(5deg);
+
+  & > * {
+    // skew back the images
+    transform: skewY(-5deg);
+  }
+
+  &__card {
+    padding-bottom: $default-card-padding-b;
+    //padding-left: 8rem;
+    //padding-right: 8rem;
+
+    border-radius: $default-card-border-radius;
+
+    margin-top: $default-card-margin-top;
+    margin-bottom: $default-card-margin-bottom;
+
+    &--heading {
+      padding-top: 2rem;
+      padding-bottom: 2rem;
+    }
+
+    &--list {
+      list-style: none;
+      font-size: $default-font-size;
+      text-align: center;
+      padding-top: 0.5rem;
+      &__item {
+        padding-top: 1rem;
+
+        &--first {
+          padding-top: 2rem;
+        }
+
+        &--last {
+          padding-top: 1rem;
+          padding-bottom: 0.5rem;
+        }
+      }
+    }
+  }
+}
+
+.section-relStyle {
+  position: relative;
+  padding: 17rem 6rem;
+  margin: $default-page-margin;
+
+  transform: skewY(5deg);
+
+  & > * {
+    // skew back the images
+    transform: skewY(-5deg);
+  }
+}
+
+.section-temperament {
+  // top/bottom --> 17rem
+  // left/right --> 15rem
+  padding: 17rem 15rem;
+
+  background-image: linear-gradient(
+    to right bottom,
+    rgba($primary, 0.6),
+    rgba($secondary, 0.6)
+  );
+
+  margin: $default-page-margin;
+
+  &__card {
+    padding-bottom: 1.5rem;
+    border-radius: $default-card-border-radius;
+    margin-bottom: $default-card-margin-bottom;
+    padding-left: 8.5rem;
+    padding-right: 8rem;
+
+    &--heading {
+      padding-top: 2rem;
+      padding-bottom: 1rem;
+    }
+  }
+}
+
+.results {
+  background-color: $color-grey-light;
+}
+
+.specificsEgo {
+  color: $primary;
+  text-align: center;
+}
+
+.specificsSuperEgo {
+  color: $accent;
+  text-align: center;
+}
+
+.specificsSuperId {
+  color: $monochrome;
+  text-align: center;
+}
+
+.specificsId {
+  color: $analogous-02;
+}
+
+/* MOBILE SCREEN SIZE */

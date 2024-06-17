@@ -1,0 +1,131 @@
+.display-box {
+  background-color: rgba($color-white, 0.8);
+
+  margin: 0 auto;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-top: 1.5rem;
+  padding-bottom: 1rem;
+
+  text-align: center;
+  border-radius: $default-card-border-radius;
+
+  box-shadow: 0 1.5rem 3rem rgba($color-black, 0.15);
+  transition: transform 0.3s;
+
+  font-size: $default-font-size;
+  min-width: 330px;
+
+  &__box {
+    border-radius: $default-card-border-radius;
+
+    &--agg {
+      list-style: none;
+      text-align: left;
+      border-radius: $card-margin-second;
+      background-color: $ghost-white;
+
+      margin-left: 5rem;
+      margin-right: 5rem;
+      margin-bottom: 1.5rem;
+
+      padding-top: 1.5rem;
+      padding-bottom: 1.5rem;
+      padding-right: 2vw;
+
+      padding-left: 4vw;
+      font-size: $default-font-size-small;
+    }
+
+    &--vic {
+      list-style: none;
+      border-radius: $card-margin-second;
+      background-color: rgba($secondary, 0.1);
+
+      margin-left: 5rem;
+      margin-right: 5rem;
+      margin-bottom: 1.5rem;
+
+      padding-top: 1.5rem;
+      padding-bottom: 1rem;
+      padding-left: 4vw;
+      padding-right: 2vw;
+
+      text-align: left;
+      font-size: $default-font-size-small;
+    }
+
+    &--car {
+      list-style: none;
+      border-radius: $card-margin-second;
+      background-color: rgba($accent, 0.1);
+
+      margin-left: 5rem;
+      margin-right: 5rem;
+      margin-bottom: 1.5rem;
+
+      padding-top: 2rem;
+      padding-bottom: 1rem;
+      padding-left: 4vw;
+      padding-right: 2vw;
+      text-align: left;
+      font-size: $default-font-size-small;
+    }
+
+    &--inf {
+      list-style: none;
+      border-radius: $card-margin-second;
+      background-color: rgba($primary, 0.1);
+
+      margin-left: 5rem;
+      margin-right: 5rem;
+      margin-bottom: 1.5rem;
+
+      padding-top: 1.5rem;
+      padding-bottom: 1.5rem;
+      padding-left: 3.5vw;
+      padding-right: 2vw;
+
+      text-align: left;
+      font-size: $default-font-size-small;
+    }
+  }
+
+  &:hover {
+    transform: translateY(-1.5rem) scale(1.03);
+  }
+
+  &__feature-details {
+    padding: 0.5rem;
+
+    ul {
+      list-style: none;
+      //width: 85%;
+      //margin: 0 auto;
+
+      li {
+        text-align: center;
+
+        padding: 1rem;
+
+        &:not(:last-child) {
+          border-bottom: 1px solid $color-grey-light-3;
+        }
+      }
+    }
+  }
+}
+
+/* MOBILE SCREEN MEDIA QUERY */
+@media screen and (max-width: 415px) {
+  .display-box {
+    &__box {
+      &--agg, &--vic, &--inf, &--car {
+        margin-left: 1rem;
+        margin-right: 1rem;
+        padding-left: 2vw;
+        padding-right: 2vw;
+      }
+    }
+  }
+}

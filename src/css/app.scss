@@ -1,0 +1,18 @@
+// app global css in SCSS form
+// app global css in SCSS form
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+template {
+  font-size: 62.5%;
+  line-height: 1.7;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}

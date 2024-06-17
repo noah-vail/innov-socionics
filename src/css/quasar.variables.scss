@@ -1,0 +1,79 @@
+/* Quasar SCSS (& Sass) Variables */
+/* COLOR PALETTE */
+$primary: #095e71;
+$monochrome: #0d85a0;
+
+$secondary: #711c09;
+$secondary-mono: #A0280D;
+
+$accent: #500971;
+$accent-mono: #710DA0;
+
+$info: #2a7109;
+$info-mono: #3CA00D;
+
+$analogous-01: #095e71;
+$analogous-02: #092a71;
+$analogous-03: #097150;
+
+$triadic-01: #095e71;
+$triadic-02: #71095e;
+$triadic-03: #5e7109;
+
+$persion-red: #bb4430;
+/* COLOR PALETTE */
+
+/** GREY COLORS **/
+$color-grey-dark-3: #1d1d1d;
+$color-grey-dark-2: #292929;
+$color-grey-dark-1: #575757;
+
+$color-grey-light-3: #878787;
+$color-grey-light-2: #c4c4c4;
+$color-grey-light: #f0e9e9;
+
+/** SHADES **/
+$color-black: #121212;
+$color-white: #fff;
+$ghost-white: #f8f7ff;
+$white-smoak: #f5f5f4;
+
+/** STICKIES **/
+$sticky-margin: 1rem;
+$sticky-padding-virtical: 0.5rem;
+$sticky-padding-horizontal: 0.9rem;
+
+/* FONT-SIZES */
+$default-font-size: 1.2rem;
+$default-font-size-tiny: 1rem;
+$default-font-size-small: 1.1rem;
+$default-page-sub-head: 2.8rem;
+
+$main-header: 5.5rem;
+$main-header-sub: 4.5rem;
+
+$heading-secondary: 3.75rem;
+$heading-tertiary: 3rem;
+$heading-tertiary-sub: 2.25rem;
+
+$default-font-size-primary-heading: 4rem;
+$default-font-size-secondary-heading: 3rem;
+
+$default-font-size-tertiary-heading: 1.6rem;
+$default-font-size-tertiary-sub-heading: 1.3rem;
+
+$font-size-button: 1.3rem;
+
+/* MARGINS  */
+$default-page-margin: 2rem;
+$default-card-margin-bottom: 3rem;
+$default-card-margin-top: 3rem;
+$button-margin-top: 6rem;
+
+/* PADDING */
+$default-card-padding-b: 1rem;
+$default-card-padding-t: 1rem;
+
+/* BORDER RADIUS */
+$default-card-border-radius: 10px;
+$card-margin-second: 8px;
